@@ -1,0 +1,16 @@
+b=int(input("Jumlah Baris=", ))
+c=int(input("Jumlah Kolom=", ))
+for i in range(1,b+1,1):
+    if i%2==1:
+        for j in range(1,b+1,1):
+            if j%2==1:
+                print("#", end=" ")
+            else:
+                print(" ", end=" ")
+    else:
+        for k in range(1,c+1,1):
+            if k%2==1:
+                print(" ", end=" ")
+            else:
+                print("#", end=" ")
+    print()
